@@ -1,4 +1,4 @@
-import BigText from 'src/common/components/elements/02 Body/17 BigText'
+import BigText from 'src/common/components/elements/02 Body/17 BigText/'
 
 export default function Home() {
   return (
