@@ -6,7 +6,7 @@ import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
 import Link from 'next/link'
 
-import cn from 'lib/classNames'
+import cn from 'classnames'
 
 export default function Container(props: any) {
   const [mounted, setMounted] = useState<boolean>(false)
