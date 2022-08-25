@@ -3,7 +3,7 @@ import React from 'react'
 
 import { useInterval } from 'react-use'
 
-import classNames from 'lib/classNames'
+import classNames from 'classnames'
 
 interface BigTextProps {
   slides: Array<string>

@@ -5,7 +5,6 @@ import { useTheme } from 'next-themes'
 import { useRouter } from 'next/dist/client/router'
 import Link from 'next/link'
 
-
 export default function Container(props: any) {
   const [mounted, setMounted] = useState<boolean>(false)
   const { resolvedTheme, setTheme } = useTheme()
