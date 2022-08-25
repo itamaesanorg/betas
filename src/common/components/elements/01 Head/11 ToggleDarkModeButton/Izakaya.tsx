@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useState } from 'react'
 
 import { motion } from 'framer-motion'
@@ -6,7 +7,6 @@ import { useRouter } from 'next/dist/client/router'
 import Link from 'next/link'
 
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function Container(props: any) {
   const [mounted, setMounted] = useState<boolean>(false)
   const { resolvedTheme, setTheme } = useTheme()
