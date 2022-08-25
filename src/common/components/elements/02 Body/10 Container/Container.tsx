@@ -6,7 +6,6 @@ import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Footer from 'src/common/components/elements/03 Footer/25 Footer/Footer.tsx'
 import cn from 'lib/classNames'
 
 export default function Container(props: any) {
@@ -231,9 +230,6 @@ export default function Container(props: any) {
           )}
         >
           <div className='flex flex-col gap-2'> {children} </div>
-          <motion.footer animate={{ y: -15 }} transition={{ duration: 0.5 }}>
-            <Footer />
-          </motion.footer>
         </main>
       </div>
     </>
