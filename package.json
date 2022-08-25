@@ -20,5 +20,29 @@
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
     "typescript": "4.7.4"
-  }
+  },
+  "keywords": [
+    "TypeScript",
+    "NextJS",
+    "TailwindCSS",
+    "Framer",
+    "Agile",
+    "Project Management",
+    "Project Management Methodologies",
+    "Agile Methodologies",
+    "Agile Development",
+    "Agile Development Methodologies",
+    "Next Right Now",
+    "NRN",
+    "EU-Privacy",
+    "RedwoodJS",
+    "Japan",
+    "Prisma"
+  ],
+  "author": "ITAMAESAN ORG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itamaesanorg/SushiJS/issues"
+  },
+  "homepage": "https://sushijs.com"
 }
