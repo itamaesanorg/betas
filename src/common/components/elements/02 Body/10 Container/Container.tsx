@@ -6,7 +6,7 @@ import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Footer from 'src/common/components/elements/03 Footer/25 Footer/Footer'
+import Footer from 'src/common/components/elements/03 Footer/25 Footer/Footer.tsx'
 import cn from 'lib/classNames'
 
 export default function Container(props: any) {
