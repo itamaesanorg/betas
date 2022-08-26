@@ -7,7 +7,7 @@ const nextConfig = {
 module.exports = {
   nextConfig,
   images: {
-    domains: ['upload.wikimedia.org'],
-    formats: ['image/webp', 'image/jpeg', 'image/png'],
+    domains: ['cdn.vercel.com'],
+    formats: ['image/webp'],
   },
 }
