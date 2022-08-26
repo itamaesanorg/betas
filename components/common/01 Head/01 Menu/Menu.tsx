@@ -15,23 +15,23 @@ export default function Menu() {
         transition={{ duration: 0.5 }}
       >
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='./pages/instore'>
+          <Link href='/servicios/instore'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-            Inscríbete
+            In Store
             </a>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='./pages/servicios/inscribete'>
+          <Link href='/servicios/streetmarketing'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-            Inscríbete
+            Street Marketing
             </a>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='/Presupuesto'>
+          <Link href='/servicios/friascongresos'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-            Presupuesto
+            Ferias y Congresos
             </a>
           </Link>
         </div>
@@ -49,16 +49,23 @@ export default function Menu() {
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='/Conocenos'>
+          <Link href='/servicios/eventosimagen'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-              Conócenos
+              Eventos de Imagen
             </a>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='/Contacto'>
+          <Link href='/servicios/otroseventos'>
             <a className='hover:text-primary transition-all cursor-pointer'>
-            Contacto
+            Otros Eventos
+            </a>
+          </Link>
+        </div>
+        <div className='flex flex-row gap-1 text-tertiary'>
+          <Link href='/servicios/uniformes'>
+            <a className='hover:text-primary transition-all cursor-pointer'>
+            Uniformes
             </a>
           </Link>
         </div>

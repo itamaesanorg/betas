@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 // Welcome to SushiJS at SushiJS.com by ITAMAESAN at Itamaesan.org
+import Link from 'next/link'
 import React from 'react'
 
 export default function Error() {
@@ -8,14 +10,17 @@ export default function Error() {
           <main className="flex-grow flex flex-col bg-white">
             <div className="flex-grow mx-auto max-w-7xl w-full flex flex-col px-4 sm:px-6 lg:px-8">
               <div className="flex  flex-cflex-shrink-0 pt-10 sm:pt-16">
-                <li href="/" className="inline-flex">
-                  <span className="sr-only">BCN HOSTESS</span>
-                  <img
+              <Link href='/#'>
+            <a className='hover:text-primary transition-all cursor-pointer'>
+              <div className='col-span-1 flex justify-center md:col-span-3 lg:col-span-1'>
+                <img
                   className='h-24'
                   src='https://raw.githubusercontent.com/miguelgargallo/SushiJS-Example-001/cf74497949cad84b0544e17b840cd5165c37545a/public/static/favicons/logo.svg'
                   alt='BCN Hostess'
                 />
-                </li>
+              </div>
+            </a>
+          </Link>
               </div>
               <div className="flex-shrink-0 my-auto py-16 sm:py-32">
                 <p className="text-sm font-semibold text-orange-500 uppercase tracking-wide">404 error</p>
