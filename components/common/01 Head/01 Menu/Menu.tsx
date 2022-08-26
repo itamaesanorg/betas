@@ -3,8 +3,7 @@ import React from 'react'
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-
-
+import Logo from '../03 Logo'
 
 export default function Menu() {
   return (
@@ -36,17 +35,7 @@ export default function Menu() {
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='/#'>
-            <a className='hover:text-primary transition-all cursor-pointer'>
-              <div className='col-span-1 flex justify-center md:col-span-3 lg:col-span-1'>
-                <img
-                  className='h-24'
-                  src='https://raw.githubusercontent.com/miguelgargallo/SushiJS-Example-001/cf74497949cad84b0544e17b840cd5165c37545a/public/static/favicons/logo.svg'
-                  alt='BCN Hostess'
-                />
-              </div>
-            </a>
-          </Link>
+          <Logo />
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/servicios/eventosimagen'>
