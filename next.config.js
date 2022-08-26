@@ -5,7 +5,6 @@ const nextConfig = {
 }
 
 module.exports = {
-  nextConfig,
   images: {
     domains: ['cdn.vercel.com'],
     formats: ['image/webp'],
