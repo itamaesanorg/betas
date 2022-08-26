@@ -2,7 +2,11 @@
 // Welcome to SushiJS at SushiJS.com by ITAMAESAN at Itamaesan.org
 import React from 'react'
 
-import Logo from '../../../../common/components/01 Head/03 Logo'
+import Image from 'next/image'
+
+import Logo from '../03 Logo'
+import ImageError from '../02 ErrorImage'
+import Link from 'next/link'
 
 export default function Error() {
   return (
@@ -20,16 +24,16 @@ export default function Error() {
                 </h1>
                 <p className="mt-2 text-base text-gray-500">No se que estás buscano, pero aquí no está.</p>
                 <div className="mt-6">
-                  <a href="/" className="text-base font-medium text-orange-500 hover:text-orange-700">
-                    Volver a home<span aria-hidden="true"> &rarr;</span>
-                  </a>
+                  <Link href="/#" className="">
+                    <span className='text-base font-bold text-orange-500 hover:text-orange-700' aria-hidden="true">Volver a home &rarr;</span>
+                  </Link>
                 </div>
               </div>
             </div>
           </main>      
         </div>
         <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <Image />
+        <ImageError />
         </div>
       </div>
   )

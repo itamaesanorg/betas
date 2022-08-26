@@ -6,10 +6,10 @@ function Logo() {
     <>
     <Link href="/#">
       <Image
-        src='https://raw.githubusercontent.com/miguelgargallo/SushiJS-Example-001/cf74497949cad84b0544e17b840cd5165c37545a/public/static/favicons/logo.svg'
+        src='https://raw.githubusercontent.com/miguelgargallo/betas/e40cac753b95eefab7f8bd189dc95e614640004d/public/logo.svg'
         alt='BCN Hostess Logo'
-        width={1080}
-        height={720}
+        width={250}
+        height={105}
       />
     </Link>
     </>
