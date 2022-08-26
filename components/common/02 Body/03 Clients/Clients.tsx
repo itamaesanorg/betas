@@ -118,8 +118,6 @@ const clients = [
     description:
       'Evento con Beefeater en Mad Cool Festival. Festival de música que se realiza en Madrid en donde el arte.',
   },
-
-  // More clients...
 ]
 
 export default function Example() {
@@ -132,23 +130,23 @@ export default function Example() {
               role="list"
               className="space-y-12 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8"
             >
-              {clients.map((person) => (
-                <li key={person.name}>
+              {clients.map((client) => (
+                <li key={client.name}>
                   <div className="space-y-4">
                     <div className="aspect-w-3">
                     <Image
                       className="object-cover shadow-lg rounded-lg"
-                      src={person.Image}
-                      alt={person.name}
+                      src={client.Image}
+                      alt={client.name}
                       width={720}
                       height={1080}
                     />
                     </div>
                     <div className="text-lg text-black leading-6 font-medium space-y-1">
-                      <h3>{person.name}</h3>
+                      <h3>{client.name}</h3>
                     </div>
                     <div className="text-lg">
-                      <p className="text-black">{person.description}</p>
+                      <p className="text-black">{client.description}</p>
                     </div>
                     <ul role="list" className="flex space-x-5">
                     </ul>
