@@ -1,13 +1,15 @@
 import type { NextPage } from 'next'
 
 import Menu from '../../components/common/01 Head/01 Menu'
-import Clients from '../../components/common/02 Body/03 Clients'
+import Info from '../../components/uncommon/02 Services/01 In-Store/02 Body/04 info/info'
+import Brand from '../../components/uncommon/02 Services/01 In-Store/02 Body/03 Brand/brand'
 
 export default function Home() {
   return (
     <>
     <Menu />
-    <Clients />
+    <Info />
+    <Brand />
     </>
   )
 }
