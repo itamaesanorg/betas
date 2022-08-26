@@ -5,7 +5,7 @@ const nextConfig = {
 }
 
 module.exports = {
-  ...nextConfig,
+  nextConfig,
   images: {
     domains: ['upload.wikimedia.org'],
     formats: ['image/svg.png+', 'image/png', 'image/jpeg'],
