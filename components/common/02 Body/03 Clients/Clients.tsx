@@ -140,7 +140,6 @@ export default function Example() {
                     </div>
                     <div className="text-lg text-black leading-6 font-medium space-y-1">
                       <h3>{person.name}</h3>
-                      <p className="text-black">{person.role}</p>
                     </div>
                     <div className="text-lg">
                       <p className="text-black">{person.description}</p>
