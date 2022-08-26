@@ -135,13 +135,13 @@ export default function Example() {
               {clients.map((person) => (
                 <li key={person.name}>
                   <div className="space-y-4">
-                    <div className="aspect-w-3 aspect-h-2">
+                    <div className="aspect-w-3">
                     <Image
                       className="object-cover shadow-lg rounded-lg"
                       src={person.Image}
-                      alt='BCN Hostess Logo'
-                      width={250}
-                      height={105}
+                      alt={person.name}
+                      width={720}
+                      height={1080}
                     />
                     </div>
                     <div className="text-lg text-black leading-6 font-medium space-y-1">
