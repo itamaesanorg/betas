@@ -3,121 +3,229 @@ import Image from 'next/image'
 const clients = [
   {
     Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Tinder.jpg?raw=true',
-    name: 'Tinder',
-    category: { name: 'Eventos, Street Marketing' },
-    description:
-      'Evento en el Hotel Wela, en donde se informo el funcionamiento de la aplicación.',
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/adidas.png?raw=true',
   },
   {
-    Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Perrier.jpg?raw=true',
-    name: 'Perrier',
-    category: { name: 'Bebidas, Eventos, Festival, Sampling' },
-    description:
-      'Evento con Perrier en festivales: Madrid - Mercado de diseño, Mercado de Motores, Mulafest',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/agusti-torello-mata.png?raw=true',
   },
   {
-    Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-MOTOGP.jpg?raw=true',
-    name: 'MotoGP',
-    category: { name: 'Bebidas, Eventos, Festival, Sampling' },
-    description: 'Gran Premio de Cataluña, circuito de Montemelo.',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/alfaparf.png?raw=true',
   },
   {
-    Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Samsung.jpg?raw=true',
-    name: 'Samsung',
-    category: { name: 'Eventos' },
-    description:
-      'Evento privado para invitados del MWC (mobile World congress).',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/audi.png?raw=true',
   },
   {
-    Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-MM.jpg?raw=true',
-    name: 'M&M',
-    category: { name: 'Sampling' },
-    description: 'Campaña de Sampling M&M, realizada en Andorra y Baqueira',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/bacardi.png?raw=true',
   },
   {
-    Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Figaro.jpg?raw=true',
-    name: 'Figaro',
-    category: { name: 'Eventos, Peluquería' },
-    description:
-      'Premios Fígaro. El evento más importante del calendario de la peluquería española, donde se presentaron las quince colecciones finalistas antes de la entrega de galardones.',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/carrefour.png?raw=true',
   },
   {
-    Image: 
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Vikingo.jpg?raw=true',
-    name: 'Vikingo',
-    category: { name: 'Bebidas, Eventos' },
-    description:
-      'Evento realizado en el congreso CCIB (centre convencions internacional Barcelona).',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/cebado.png?raw=true',
   },
   {
-    Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Telefonica.jpg?raw=true',
-    name: 'Telefónica',
-    category: { name: 'Eventos, Fashion' },
-    description:
-      'Proveedores oficiales durante 4 años, evento realizado en Diagonal 00 Torre Telefónica.',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/cinesa.png?raw=true',
   },
   {
-    Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Corona.jpg?raw=true',
-    name: 'Corona',
-    category: { name: 'Bebidas, Eventos, Street Marketing' },
-    description: 'Campaña de verano realizada en Barcelona y alrededores.',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/ciruit-catalunya.png?raw=true',
   },
   {
-    Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-IQOS.jpg?raw=true',
-    name: 'IQOS',
-    category: { name: 'Eventos, In Store' },
-    description:
-      'Co_Lab Café by IQOS, Madrid. Espacio en el que nuestros expertos te asesorarán sobre este nuevo dispositivo electrónico que calienta el tabaco en lugar de quemarlo y te resolverán cualquier duda o incidencia.',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/clarion.png?raw=true',
   },
   {
-    Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-VICE.jpg?raw=true',
-    name: 'VICE',
-    category: { name: 'Eventos, Eventos deportivos' },
-    description:
-      'Festival Cara B, es un festival de cultura musical independiente y urbana, que se celebra en Barcelona, se posiciona como el principal escaparate de las tendencias musicales y los sonidos más frescos del momento.',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/Danone.png?raw=true',
   },
   {
-    Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Movistar.jpg?raw=true',
-    name: 'Movistar',
-    category: { name: 'Eventos, Fashion' },
-    description:
-      'Durante años fuimos los responsable de proveer el staff para grandes premios no solo de F1 sino que también de Moto GP, conocemos muy bien los protocolos de actuación en los circuitos.',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/dulcesol.png?raw=true',
   },
   {
-    Image:
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Montibello.jpg?raw=true',
-    name: 'Montibello',
-    category: { name: 'Eventos, Peluquería' },
-    description:
-      'Principal cliente, servicio en la Gala realizada en la feria Cosmo Beauty. Fabrican y distribuyen productos de cosmética profesional.',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/elpozo.png?raw=true',
   },
   {
-    Image: 
-    'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Adidas.jpg?raw=true',
-    name: 'Adidas',
-    category: { name: 'Eventos deportivos, Motor' },
-    description:
-      'Presentación nuevo lanzamiento, en el Gran Premio de España F1, Montemelo, circuito de Catalunya.',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/farina.png?raw=true',
   },
   {
-    Image:
-      'https://github.com/sushi-js/SushiJS-Boliperplate/blob/main/src/common/components/elements/02%20Body/07%20CardsProps/BCNHostess-cliente-Beefeater.jpg?raw=true',
-    name: 'Beefeater',
-    category: { name: 'Bebidas, Eventos, Street Marketing' },
-    description:
-      'Evento con Beefeater en Mad Cool Festival. Festival de música que se realiza en Madrid en donde el arte.',
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/ferrari.png?raw=true',
   },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/freeman.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/freixenet.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/GinMG.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/isabel.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/jamon-teruel.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/kellogs.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/lakme.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/llongueras.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/loreal.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/lucky.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/mango.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/marco_aldany.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/massimo.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/me-by-melia.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/melia.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/mercedes.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/mga-grupo.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/montibello.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/nal3comunicacio.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/noel.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/norma.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/oleoestepa.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/onecowork.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/oysho.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/parc-valles.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/PhilipMorris.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/porsche-300x188.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/porsche.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/privalia.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/rally-car.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/revlon.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/sasson.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/schwarkopf.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/seat.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/seatra.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/sorisa.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/suzuki.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/telefonica.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/thuya.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/tony-guy.png?raw=true',
+  },
+  {
+  Image:
+    'https://github.com/sushi-js/sushis-demo/blob/main/src/common/components/elements/02%20Body/11%20CaseStudies/Case-Study-Clientes/Brands/vice.png?raw=true',
+},
+
 ]
 
 export default function Example() {
