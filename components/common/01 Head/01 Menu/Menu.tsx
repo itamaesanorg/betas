@@ -15,21 +15,21 @@ export default function Menu() {
       >
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/servicios/instore'>
-            <a className='hover:text-primary transition-all cursor-pointer'>
+            <a className='text-xl text-xl hover:text-primary transition-all cursor-pointer'>
             In Store
             </a>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/servicios/streetmarketing'>
-            <a className='hover:text-primary transition-all cursor-pointer'>
+            <a className='text-xl hover:text-primary transition-all cursor-pointer'>
             Street Marketing
             </a>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/servicios/feriascongresos'>
-            <a className='hover:text-primary transition-all cursor-pointer'>
+            <a className='text-xl hover:text-primary transition-all cursor-pointer'>
             Ferias y Congresos
             </a>
           </Link>
@@ -39,21 +39,21 @@ export default function Menu() {
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/servicios/eventosimagen'>
-            <a className='hover:text-primary transition-all cursor-pointer'>
+            <a className='text-xl hover:text-primary transition-all cursor-pointer'>
               Eventos de Imagen
             </a>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/servicios/otroseventos'>
-            <a className='hover:text-primary transition-all cursor-pointer'>
+            <a className='text-xl hover:text-primary transition-all cursor-pointer'>
             Otros Eventos
             </a>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='/servicios/uniformes'>
-            <a className='hover:text-primary transition-all cursor-pointer'>
+            <a className='text-xl hover:text-primary transition-all cursor-pointer'>
             Uniformes
             </a>
           </Link>

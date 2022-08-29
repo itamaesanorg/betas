@@ -127,3 +127,19 @@
     filter: invert(1);
   }
 }
+
+div.ex1 {
+  overflow-x: scroll;
+}
+
+div.ex2 {
+  overflow-x: hidden;
+}
+
+div.ex3 {
+  overflow-x: auto;
+}
+
+div.ex4 {
+  overflow-x: visible;
+}
