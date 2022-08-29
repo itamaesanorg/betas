@@ -238,23 +238,23 @@ export default function Example() {
               role="list"
               className="space-y-12 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8"
             >
-              {clients.map((client) => (
-                <li key={client.name}>
+              {clients.map((clients) => (
+                <li key={clients.Image}>
                   <div className="space-y-4">
                     <div className="aspect-w-3">
                     <Image
                       className="object-cover shadow-lg rounded-lg"
-                      src={client.Image}
-                      alt={client.name}
+                      src={clients.Image}
+                      alt={clients.Image}
                       width={720}
                       height={1080}
                     />
                     </div>
                     <div className="text-lg text-black leading-6 font-medium space-y-1">
-                      <h3>{client.name}</h3>
+                      <h3>{clients.Image}</h3>
                     </div>
                     <div className="text-lg">
-                      <p className="text-black">{client.description}</p>
+                      <p className="text-black">{clients.Image}</p>
                     </div>
                     <ul role="list" className="flex space-x-5">
                     </ul>
