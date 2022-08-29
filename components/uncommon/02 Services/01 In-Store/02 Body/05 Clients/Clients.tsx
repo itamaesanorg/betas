@@ -1,4 +1,6 @@
+import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
+import { useState } from 'react'
 
 const brand = [
 {
@@ -274,38 +276,24 @@ Image:
 
 ]
 
-
 export default function Example() {
   return (
-    <div className="bg-white">
-      <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
-        <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
-          <div className="lg:col-span-3">
-            <ul
-              role="list"
-              className="space-y-12 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8"
-            >
+    <div className="grid grid-flow-col auto-cols-max gap-5 py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
               {brand.map((brand) => (
-                <li key={brand.Name}>
-                  <div className="space-y-4">
-                    <div className="aspect-w-3">
+                <div key={brand.Name}>
                     <Image
-                      className="object-cover shadow-lg rounded-lg"
+                      className="col-span-2"
                       src={brand.Image}
-                      width={720}
-                      height={1080}
+                      width={50}
+                      height={50}
                       alt="Brand"
                     />
-                    </div>
-                    <ul role="list" className="flex space-x-5">
+                    <ul role="list" className="">
                     </ul>
                   </div>
-                </li>
               ))}
-            </ul>
           </div>
-        </div>
-      </div>
-    </div>
+
+
   )
 }
