@@ -122,13 +122,16 @@ const clients = [
 
 export default function Clients() {
   return (
-    <div className="bg-white">
-      <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+    <div className="bg-white overflow-y-scroll h-75 box-border border-emerald-400 border-4">
+      <div className="flex">
+        <aside className="h-screen sticky top-0">
+      <div className="mx-auto py-6 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-2">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="lg:col-span-3">
+          <div className="">
             <ul
               role="list"
-              className="space-y-12 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8"
+              className="overflow-y-scrollspace-y-12 sm:grid sm:grid-cols-4 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8"
             >
               {clients.map((client) => (
                 <li key={client.name}>
@@ -155,7 +158,10 @@ export default function Clients() {
               ))}
             </ul>
           </div>
+          </div>
         </div>
+      </div>
+      </aside>
       </div>
     </div>
   )

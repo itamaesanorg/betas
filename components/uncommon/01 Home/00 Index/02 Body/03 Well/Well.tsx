@@ -278,11 +278,13 @@ Image:
 
 export default function Example() {
   return (
-    <div className="grid grid-flow-col auto-cols-max gap-5 py-0 px-4 max-w-7xl sm:px- lg:px-8 lg:py-0">
+    <div
+    className="w-screen">
+    <div className="grid grid-flow-col auto-cols-max gap-5 py-0 px-4 max-w-fit sm:px- lg:px-8 lg:py-0 box-border border-blue-400 border-4">
               {brand.map((brand) => (
                 <div key={brand.Name}>
                     <Image
-                      className="col-span-2"
+                      className="col-span-1"
                       src={brand.Image}
                       width={75}
                       height={50}
@@ -292,6 +294,7 @@ export default function Example() {
                     </ul>
                   </div>
               ))}
+          </div>
           </div>
 
 
