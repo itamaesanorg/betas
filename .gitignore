@@ -39,7 +39,7 @@ next-env.d.ts
 # db
 .env
 server.ts
-
+.envexample
 # Apple
 other
 components/common/01 Head/03 Logo/notes.md
