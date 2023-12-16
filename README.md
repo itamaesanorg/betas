@@ -1,3 +1,6 @@
+> [!WARNING]  
+> We have only 1 official domain: is itamaesan.org, anything else is non official.
+
 ![ITAMAESAN SushiJS Wallpaper Best Light NNextJS Framework with Husky fixed](https://user-images.githubusercontent.com/5947268/185643867-81854585-1f24-470e-9836-2a8b9c62c8dd.png)
 
 # SushiJS Beta is called "Betas"
@@ -421,7 +424,6 @@ This also enables a way to order tasks as the Agile Scrum Manifesto states.
 ## Support
 
     🐣 Twitter: https://twitter.com/itamaesanorg
-    🌐 Homepage: https://itamaesan.org redirects to https://SushiJS.com
 
 - [Back to top 🔼](#Project-Organizer)
 
